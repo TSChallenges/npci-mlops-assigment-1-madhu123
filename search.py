@@ -8,11 +8,11 @@ def grep(pattern, file_name):
     return 
 
 def sed(old_pattern, new_patten, file_name):
-    # ... 
+    sed 's/old_pattern/new_patten/g' file_name 
     return 
 
 def awk(n, file_name):
-    # ...
+    awk '{ if($n == "n") print $0;}' file_name
     return 
 
 def main():
