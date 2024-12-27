@@ -2,23 +2,23 @@ import os
 import sys
 
 def create_directory(dir_name):
-    # ... 
+    mkdir dir_name 
     return
 
 def change_directory(dir_name):
-    # ... 
+    cd dir_name 
     return
 
 def delete_directory(dir_name):
-    # ...
+    rmdir dir_name
     return
 
 def list_dir():
-    # ...
+    ls
     return
 
 def display_pwd():
-    # ... 
+    pwd 
     return
 
 def create_file(file_name):
